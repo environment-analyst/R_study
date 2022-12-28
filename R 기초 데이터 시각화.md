@@ -13,3 +13,23 @@ write.csv(객체명,"파일경로/파일명.csv",row.names = F)
 1. 쇠사슬: 데이터를 연결해 주는 기호
 2. ctrl + shift + m 누르면 자동 생성
 
+## R studio 단축키
+ctrl + shift + k : 단축키 확인
+ctrl + enter : 한 줄 스크립트 실행
+ctrl + shift + enter : 전체 스크립트 실행 -> 사용에 주의, 데이터가 많은 경우 문제 발생
+ctrl + d : 해당 라인 삭제하기
+ctrl + shift + z : 앞으로 되돌리기
+ctrl + shift + c : 주석처리하기
+alt + - : <- 표시 한번에 하기
+ctrl + shift + m : %>% 표시 한번에 하기
+ctrl + shift + o : 주석 목록 보기
+----(하이픈 * 4) : 주석 처리
+ctrl + shift + h : 경로 설정
+
+## 라이브러리
+**파일 열자마자 설정해주기**
+'library(라이브러리)'
+->dplyr,lubridate,stringr,data.table 등등 도 다 하기
+
+단, 라이브러리 실행전 먼저 설치되어 있어야 함
+->'install.packate("라이브러리")'코드로 설치
