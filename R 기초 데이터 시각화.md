@@ -28,8 +28,8 @@ ctrl + shift + h : 경로 설정
 
 ## 라이브러리
 **파일 열자마자 설정해주기**
-'library(라이브러리)'
+`library(라이브러리)`</br>
 ->dplyr,lubridate,stringr,data.table 등등 도 다 하기
 
-단, 라이브러리 실행전 먼저 설치되어 있어야 함
-->'install.packate("라이브러리")'코드로 설치
+단, 라이브러리 실행전 먼저 설치되어 있어야 함</br>
+->`install.packate("라이브러리")`코드로 설치
