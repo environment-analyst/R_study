@@ -103,6 +103,6 @@ df %>%
 ## 03.05. 특정 기준 중 'INCLUED' 조건으로 가져오기
 ```R
 df %>%
-  filter(city %in% c('data','information'))
+  filter(컬럼명 %in% c('data','information'))
 ```
-> 여기서 데이터가 
+> 여기서 컬럼내에서 data, information으로 저장되어 자료 가져오기(해당 행을 다 가져온다)
