@@ -10,3 +10,7 @@ right_join
 inner_join
 full_join
 ```
+1. left_join(df1,df2) -> df1의 자료를 기준으로 병합
+2. right_join(df1,df2) -> df2의 자료를 기준으로 병합
+3. inner_join(df1,df2) -> df1과 df2의 대응되는 행만 병합(나머지는 없어짐)
+4. full_join(df1,df2) -> df1과 df2의 모든 값과 행을 병합
